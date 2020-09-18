@@ -5,4 +5,8 @@ $('.photo-slider').slick({
     nextArrow: '<button type="button" class="slick-next"><img src="img/arrow-right.svg" alt=""></button>'
 });
 
+$('.menu-btn').on('click',function(){
+    $('.menu-list').slideToggle(); 
+});
+
 });
